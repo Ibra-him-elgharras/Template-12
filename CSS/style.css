@@ -1,9 +1,37 @@
 
 
-
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #c82828bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.search{
+    background-color: #fff;
+    height: 50px;
+    width: 30%;
+
+}
+
+
+.search .text{
+    background-color: #013890;
+    height: 100%;
+    width: 80%;
+}
+
+
+.search .icon{
+    background-color: #5fc60b;
+    height: 10%;
+    
+}
+
