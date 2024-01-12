@@ -15,23 +15,28 @@ body{
 }
 
 .search{
-    background-color: #fff;
-    height: 50px;
+    height: 40px;
     width: 30%;
-
+    display: flex;
 }
 
 
 .search .text{
-    background-color: #013890;
+    background-color: #fff;
     height: 100%;
-    width: 80%;
+    width: 85%;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    color: #00000078;
+    padding: 10px;
 }
 
 
 .search .icon{
     background-color: #5fc60b;
-    height: 10%;
+    height: 100%;
+    width: 15%;
     
 }
 
