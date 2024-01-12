@@ -15,9 +15,11 @@ body{
 }
 
 .search{
+    background-color: none;
     height: 40px;
     width: 30%;
     display: flex;
+    z-index: 10;
 }
 
 
@@ -34,9 +36,13 @@ body{
 
 
 .search .icon{
-    background-color: #5fc60b;
+    background-color: #c82828bb;
     height: 100%;
     width: 15%;
-    
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
 
